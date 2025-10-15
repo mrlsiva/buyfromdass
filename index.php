@@ -123,7 +123,25 @@
 			</div><!-- Container /- -->
 		</div><!-- About Section /- -->
 
-		<!-- Process Section -->
+		
+		<!-- Quotes Section -->
+		<div class="quotes-section container-fluid no-padding">
+			<div class="section-padding"></div>
+			<!-- Container -->
+			<div class="container">
+				<div class="quotes-content">
+					<h3>READY TO BUY SMARTER?</h3>
+					<!-- <img src="images/quote-ic-1.png" alt="quote-ic" /> -->
+					<h5>Whether you're setting up a new home, replacing an old appliance, or simply exploring your
+						options, we’re here to make your next purchase smooth and stress-free.</h5>
+
+					<!-- <img src="images/quote-ic-2.png" alt="quote-ic" /> -->
+				</div>
+			</div><!-- Container /- -->
+			<div class="section-padding"></div>
+		</div><!-- Quotes Section /- -->
+
+<!-- Process Section -->
 		<div class="process-section container-fluid no-padding gray-bg">
 			<div class="section-padding"></div>
 			<!--<div class="process-top-image">
@@ -219,24 +237,6 @@
 			</div>-->
 			<div class="section-padding"></div>
 		</div><!-- Process Section /- -->
-
-		<!-- Quotes Section -->
-		<div class="quotes-section container-fluid no-padding">
-			<div class="section-padding"></div>
-			<!-- Container -->
-			<div class="container">
-				<div class="quotes-content">
-					<h3>READY TO BUY SMARTER?</h3>
-					<!-- <img src="images/quote-ic-1.png" alt="quote-ic" /> -->
-					<h5>Whether you're setting up a new home, replacing an old appliance, or simply exploring your
-						options, we’re here to make your next purchase smooth and stress-free.</h5>
-
-					<!-- <img src="images/quote-ic-2.png" alt="quote-ic" /> -->
-				</div>
-			</div><!-- Container /- -->
-			<div class="section-padding"></div>
-		</div><!-- Quotes Section /- -->
-
 
 	
 	<?php include 'includes/cta.html'; ?>
