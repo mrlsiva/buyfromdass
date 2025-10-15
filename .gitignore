@@ -1,0 +1,38 @@
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore backup and reference folders
+backup/
+ref/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log and cache files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore vendor dependencies (if any)
+vendor/
+
+# Ignore environment and configuration files
+.env
+*.env.*
+config.php
+
+# Ignore node or composer dependencies (if used)
+node_modules/
+composer.lock
+package-lock.json
+
+# Ignore build and cache directories
+dist/
+build/
+.cache/
