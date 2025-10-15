@@ -18,16 +18,8 @@
 	<title>Buy From Dass</title>
 
 	<!-- Standard Favicon -->
-	<link rel="icon" type="image/x-icon" href="images//favicon.png" />
+	<link rel="icon" type="image/x-icon" href="images/favicon.png" />
 
-	<!-- For iPhone 4 Retina display: -->
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images//apple-touch-icon-114x114-precomposed.png">
-
-	<!-- For iPad: -->
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images//apple-touch-icon-72x72-precomposed.png">
-
-	<!-- For iPhone: -->
-	<link rel="apple-touch-icon-precomposed" href="images//apple-touch-icon-57x57-precomposed.png">
 
 	<!-- Custom - Theme CSS -->
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -40,8 +32,6 @@
 
 <body data-offset="200" data-spy="scroll" data-target=".ow-navigation">
 	<?php include 'includes/header.html'; ?>
-
-
 	<main class="site-main page-spacing">
 		<!-- Photo Slider -->
 		<div class="photo-slider container-fluid no-padding">
@@ -251,22 +241,12 @@
 	
 	<?php include 'includes/cta.html'; ?>
 	</main>
-	
 	<?php include 'includes/footer.html'; ?>
 
-	<!-- JQuery v1.12.4 -->
-	<!-- <script src="js/jquery-1.12.4.min.js"></script> -->
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
-
-	<!-- Library - Js -->
-	<script src="libraries/lib.js"></script><!-- Bootstrap JS File v3.3.5 -->
-
-	<!-- Library - Google Map API -->
-	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE"></script> -->
-
-	<!-- Library - Theme JS -->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+	<script src="libraries/lib.js"></script>
 	<script src="js/functions.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE&callback=initMap"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE&callback=initMap"></script>
 
 </body>
 
