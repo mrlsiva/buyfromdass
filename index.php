@@ -39,7 +39,7 @@
 </head>
 
 <body data-offset="200" data-spy="scroll" data-target=".ow-navigation">
-	<?php include 'includes/header.html'; ?>
+
 
 
 	<main class="site-main page-spacing">
@@ -249,11 +249,11 @@
 
 
 	
-	<?php include 'includes/cta.html'; ?>
+
 
 	</main>
 	
-	<?php include 'includes/footer.html'; ?>
+
 
 	<!-- JQuery v1.12.4 -->
 	<script src="js/jquery-1.12.4.min.js"></script>
