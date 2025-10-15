@@ -29,6 +29,8 @@
 	<!-- For iPhone: -->
 	<link rel="apple-touch-icon-precomposed" href="images//apple-touch-icon-57x57-precomposed.png">
 
+	<!-- Custom - Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<!--[if lt IE 9]>
 		<script src="js/html5/respond.min.js"></script>
@@ -247,11 +249,24 @@
 
 
 	
-		<?php include 'includes/cta.html'; ?>
+	<?php include 'includes/cta.html'; ?>
 	</main>
 	
 	<?php include 'includes/footer.html'; ?>
 
+	<!-- JQuery v1.12.4 -->
+	<!-- <script src="js/jquery-1.12.4.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+
+	<!-- Library - Js -->
+	<script src="libraries/lib.js"></script><!-- Bootstrap JS File v3.3.5 -->
+
+	<!-- Library - Google Map API -->
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE"></script> -->
+
+	<!-- Library - Theme JS -->
+	<script src="js/functions.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE&callback=initMap"></script>
 
 </body>
 
