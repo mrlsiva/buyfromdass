@@ -51,9 +51,9 @@
 					<div class="item active">
 						<img width="1920" height="960" alt="slider" src="images/slider-1.jpg">
 						<div class="carousel-caption">
-							<img src="images/slider-ic.png" alt="slider-ic" width="131" height="129">
+							<!-- <img src="images/slider-ic.png" alt="slider-ic" width="131" height="129"> -->
 							<h3>Buy From Dass</h3>
-							<img src="images/section-seprator-1.png" alt="section-seprator" width="76" height="10" />
+							<!-- <img src="images/section-seprator-1.png" alt="section-seprator" width="76" height="10" /> -->
 							<p>YOUR ONE-STOP SOLUTION FOR ALL HOME NEEDS</p>
 						</div>
 						<span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce"
@@ -69,7 +69,7 @@
 				</div>
 			</div><!-- Main Carousel /-  -->
 		</div><!-- Photo Slider /- -->
-		
+
 		<?php include 'includes/about.html'; ?>
 
 		<!-- Quotes Section -->
