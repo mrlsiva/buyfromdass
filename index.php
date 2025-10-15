@@ -17,64 +17,33 @@
 
 	<title>Buy From Dass</title>
 
+	<!-- Standard Favicon -->
+	<link rel="icon" type="image/x-icon" href="images//favicon.png" />
+
+	<!-- For iPhone 4 Retina display: -->
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images//apple-touch-icon-114x114-precomposed.png">
+
+	<!-- For iPad: -->
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images//apple-touch-icon-72x72-precomposed.png">
+
+	<!-- For iPhone: -->
+	<link rel="apple-touch-icon-precomposed" href="images//apple-touch-icon-57x57-precomposed.png">
+
+	<!-- Custom - Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--[if lt IE 9]>
+		<script src="js/html5/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
+<body data-offset="200" data-spy="scroll" data-target=".ow-navigation">
 	<?php include 'includes/header.html'; ?>
 
 
 	<main class="site-main page-spacing">
-		<!-- Photo Slider -->
-		<div class="photo-slider container-fluid no-padding">
-			<!-- Main Carousel -->
-			<div id="main-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-				<div role="listbox" class="carousel-inner">
-					<div class="item active">
-						<img width="1920" height="960" alt="slider" src="images/slider-1.jpg">
-						<div class="carousel-caption">
-							<!-- <img src="images/slider-ic.png" alt="slider-ic" width="131" height="129"> -->
-							<h3>Buy From Dass</h3>
-							<!-- <img src="images/section-seprator-1.png" alt="section-seprator" width="76" height="10" /> -->
-							<p>YOUR ONE-STOP SOLUTION FOR ALL HOME NEEDS</p>
-						</div>
-						<span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce"
-									aria-hidden="true"></i>scroll down</a></span>
-					</div>
-
-					<a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
-						<i class="fa fa-caret-left" aria-hidden="true"></i>
-					</a>
-					<a class="right carousel-control" href="#main-carousel" role="button" data-slide="next">
-						<i class="fa fa-caret-right" aria-hidden="true"></i>
-					</a>
-				</div>
-			</div><!-- Main Carousel /-  -->
-		</div><!-- Photo Slider /- -->
-
-		<?php include 'includes/about.html'; ?>
-
-		<!-- Quotes Section -->
-		<div class="quotes-section container-fluid no-padding">
-			<div class="section-padding"></div>
-			<!-- Container -->
-			<div class="container">
-				<div class="quotes-content">
-					<h3>WE DON’T SELL PRODUCTS. WE SELL PEACE OF MIND.</h3>
-					<!-- <img src="images/quote-ic-1.png" alt="quote-ic" /> -->
-					<h5>Choosing a home appliance today is more complicated than ever. With a flood of options across
-						online platforms (Amazon, Flipkart), major retail chains (Reliance Digital, Croma), and local
-						dealers, even a small mistake can be costly.</h5>
-					<h5>That’s where Buy From Dass steps in. Not as salespeople, but as your personal, independent
-						consultants.</h5>
-					<h5>We’re not here to push products or promote brands. Our sole aim is to help you choose the right
-						product, from the right place, at the right time – whether it's a refrigerator, washing machine,
-						air conditioner, television, or any other appliance.</h5>
-					<!-- <img src="images/quote-ic-2.png" alt="quote-ic" /> -->
-				</div>
-			</div><!-- Container /- -->
-			<div class="section-padding"></div>
-		</div><!-- Quotes Section /- -->
-
+		
 		<!-- About Section -->
 		<div class="about-section container-fluid">
 			<!-- Container -->
@@ -227,16 +196,22 @@
 			</div><!-- Container /- -->
 			<div class="section-padding"></div>
 		</div><!-- Quotes Section /- -->
-
-
-	
-	<?php include 'includes/cta.html'; ?>
-
+		<?php include 'includes/cta.html'; ?>
 	</main>
 	
 	<?php include 'includes/footer.html'; ?>
 
-	
+	<!-- JQuery v1.12.4 -->
+	<script src="js/jquery-1.12.4.min.js"></script>
+
+	<!-- Library - Js -->
+	<script src="libraries/lib.js"></script><!-- Bootstrap JS File v3.3.5 -->
+
+	<!-- Library - Google Map API -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE"></script>
+
+	<!-- Library - Theme JS -->
+	<script src="js/functions.js"></script>
 </body>
 
 </html>
