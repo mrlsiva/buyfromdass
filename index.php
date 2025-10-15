@@ -39,7 +39,7 @@
 			<div id="main-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 				<div role="listbox" class="carousel-inner">
 					<div class="item active">
-						<img width="1920" height="960" alt="slider" src="images/slider-1.jpg">
+						<img width="1920" height="960" alt="slider" src="images/slider-1.webp">
 						<div class="carousel-caption">
 							<!-- <img src="images/slider-ic.png" alt="slider-ic" width="131" height="129"> -->
 							<h3>Buy From Dass</h3>
