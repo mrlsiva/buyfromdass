@@ -30,7 +30,7 @@
 	<link rel="apple-touch-icon-precomposed" href="images//apple-touch-icon-57x57-precomposed.png">
 
 	<!-- Custom - Theme CSS -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 
 	<!--[if lt IE 9]>
 		<script src="js/html5/respond.min.js"></script>
@@ -39,21 +39,9 @@
 </head>
 
 <body data-offset="200" data-spy="scroll" data-target=".ow-navigation">
-	<?php include 'includes/header.html'; ?>
+
 	hI
-	<?php include 'includes/footer.html'; ?>
 
-	<!-- JQuery v1.12.4 -->
-	<script src="js/jquery-1.12.4.min.js"></script>
-
-	<!-- Library - Js -->
-	<script src="libraries/lib.js"></script><!-- Bootstrap JS File v3.3.5 -->
-
-	<!-- Library - Google Map API -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE"></script>
-
-	<!-- Library - Theme JS -->
-	<script src="js/functions.js"></script>
 </body>
 
 </html>
