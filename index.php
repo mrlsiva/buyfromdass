@@ -261,8 +261,6 @@
 	<!-- Library - Js -->
 	<script src="libraries/lib.js"></script><!-- Bootstrap JS File v3.3.5 -->
 
-	<!-- Library - Google Map API -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE"></script>
 
 	<!-- Library - Theme JS -->
 	<script src="js/functions.js"></script>
