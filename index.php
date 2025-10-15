@@ -243,7 +243,7 @@
 	</main>
 	<?php include 'includes/footer.html'; ?>
 
-	<script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+	<script src="js/jquery-1.12.4.min.js"></script>
 	<script src="libraries/lib.js"></script>
 	<script src="js/functions.js"></script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE&callback=initMap"></script>
