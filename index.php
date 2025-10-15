@@ -30,7 +30,7 @@
 	<link rel="apple-touch-icon-precomposed" href="images//apple-touch-icon-57x57-precomposed.png">
 
 	<!-- Custom - Theme CSS -->
-	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<!--[if lt IE 9]>
 		<script src="js/html5/respond.min.js"></script>
