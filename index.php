@@ -49,6 +49,17 @@
 						<span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce"
 									aria-hidden="true"></i>scroll down</a></span>
 					</div>
+					<div class="item">
+						<img width="1920" height="960" alt="slider" src="images/slider-2.webp">
+						<div class="carousel-caption">
+							<!-- <img src="images/slider-ic.png" alt="slider-ic" width="131" height="129"> -->
+							<h3>Buy From Dass</h3>
+							<!-- <img src="images/section-seprator-1.png" alt="section-seprator" width="76" height="10" /> -->
+							<p>YOUR ONE-STOP SOLUTION FOR ALL HOME NEEDS</p>
+						</div>
+						<span class="goto-next"><a href="#order-section"><i class="fa fa-arrow-down bounce"
+									aria-hidden="true"></i>scroll down</a></span>
+					</div>
 
 					<a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
 						<i class="fa fa-caret-left" aria-hidden="true"></i>
@@ -123,25 +134,7 @@
 			</div><!-- Container /- -->
 		</div><!-- About Section /- -->
 
-		
-		<!-- Quotes Section -->
-		<div class="quotes-section container-fluid no-padding">
-			<div class="section-padding"></div>
-			<!-- Container -->
-			<div class="container">
-				<div class="quotes-content">
-					<h3>READY TO BUY SMARTER?</h3>
-					<!-- <img src="images/quote-ic-1.png" alt="quote-ic" /> -->
-					<h5>Whether you're setting up a new home, replacing an old appliance, or simply exploring your
-						options, we’re here to make your next purchase smooth and stress-free.</h5>
-
-					<!-- <img src="images/quote-ic-2.png" alt="quote-ic" /> -->
-				</div>
-			</div><!-- Container /- -->
-			<div class="section-padding"></div>
-		</div><!-- Quotes Section /- -->
-
-<!-- Process Section -->
+		<!-- Process Section -->
 		<div class="process-section container-fluid no-padding gray-bg">
 			<div class="section-padding"></div>
 			<!--<div class="process-top-image">
@@ -161,7 +154,7 @@
 					<div class="col-md-12 col-sm-12 col-xs-12 no-padding process-box">
 						<div class="col-md-8 col-sm-12 col-xs-12">
 							<div class="col-md-8 col-sm-8 col-xs-7">
-								<img src="images/why-choose/1.svg" alt="process" width="120px" />
+								<img src="images/why-choose/1.png" alt="process" width="120px" />
 								<span></span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-5">
@@ -175,7 +168,7 @@
 					<div class="col-md-12 col-sm-12 col-xs-12 no-padding process-box">
 						<div class="col-md-8 col-sm-12 col-xs-12">
 							<div class="col-md-8 col-sm-8 col-xs-7">
-								<img src="images/why-choose/2.svg" alt="process" width="120px" />
+								<img src="images/why-choose/2.png" alt="process" width="120px" />
 
 								<span></span>
 							</div>
@@ -190,7 +183,7 @@
 					<div class="col-md-12 col-sm-12 col-xs-12 no-padding process-box">
 						<div class="col-md-8 col-sm-12 col-xs-12">
 							<div class="col-md-8 col-sm-8 col-xs-7">
-								<img src="images/why-choose/3.svg" alt="process" width="120px" />
+								<img src="images/why-choose/3.png" alt="process" width="120px" />
 								<span></span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-5">
@@ -204,7 +197,7 @@
 					<div class="col-md-12 col-sm-12 col-xs-12 no-padding process-box">
 						<div class="col-md-8 col-sm-12 col-xs-12">
 							<div class="col-md-8 col-sm-8 col-xs-7">
-								<img src="images/why-choose/4.svg" alt="process" width="120px" />
+								<img src="images/why-choose/4.png" alt="process" width="120px" />
 								<span></span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-5">
@@ -218,7 +211,7 @@
 					<div class="col-md-12 col-sm-12 col-xs-12 no-padding process-box">
 						<div class="col-md-8 col-sm-12 col-xs-12">
 							<div class="col-md-8 col-sm-8 col-xs-7">
-								<img src="images/why-choose/5.svg" alt="process" width="120px" />
+								<img src="images/why-choose/5.png" alt="process" width="120px" />
 								<span></span>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-5">
@@ -237,6 +230,24 @@
 			</div>-->
 			<div class="section-padding"></div>
 		</div><!-- Process Section /- -->
+		<!-- Quotes Section -->
+		<div class="quotes-section container-fluid no-padding">
+			<div class="section-padding"></div>
+			<!-- Container -->
+			<div class="container">
+				<div class="quotes-content">
+					<h3>READY TO BUY SMARTER?</h3>
+					<!-- <img src="images/quote-ic-1.png" alt="quote-ic" /> -->
+					<h5>Whether you're setting up a new home, replacing an old appliance, or simply exploring your
+						options, we’re here to make your next purchase smooth and stress-free.</h5>
+
+					<!-- <img src="images/quote-ic-2.png" alt="quote-ic" /> -->
+				</div>
+			</div><!-- Container /- -->
+			<div class="section-padding"></div>
+		</div><!-- Quotes Section /- -->
+
+
 
 	
 	<?php include 'includes/cta.html'; ?>
